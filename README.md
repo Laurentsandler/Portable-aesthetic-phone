@@ -20,7 +20,9 @@ When picking out the parts for this project, I wanted to make sure that anyone w
 
 ### Initial Sketch
 
-Images/Sketch.jpg
+Portable-aesthetic-phone/Images
+/Sketch.jpg
+
 
 ### Case Design
 
