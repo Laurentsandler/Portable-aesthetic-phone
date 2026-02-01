@@ -177,7 +177,7 @@ Access system controls:
 | Waveshare ESP32-S3 3.5" Touch LCD | 1 | ~$45 | [Aamazon](https://amzn.eu/d/dhugQwD) |
 | EEMB 3.7V 2000mAh 103454 LiPo Battery | 1 | ~$13 | [Amazon](https://amzn.eu/d/cf0S0PU) |
 | M2x8 Countersunk Screws | 4 | ~$8 | [Amazon](https://amzn.eu/d/9zHVemm) |
-| MicroSD Card | 1 | ~$6 | Various |[Amazon](https://amzn.eu/d/2BCD5lO)|
+| MicroSD Card | 1 | ~$6  |[Amazon](https://amzn.eu/d/2BCD5lO)|
 
 ## Case
 
