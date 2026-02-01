@@ -4,12 +4,12 @@ This document lists all components required to build the Portable Aesthetic Phon
 
 ## Components
 
-| Component | Quantity | Estimated Price | Notes |
-|-----------|----------|-----------------|-------|
-| Waveshare ESP32-S3 3.5" Touch LCD | 1 | ~$30 | Main development board with integrated display, touch, camera, and audio codec. [Waveshare Product Page](https://www.waveshare.com/esp32-s3-touch-lcd-3.5.htm) |
-| EEMB 3.7V 2000mAh 103454 LiPo Battery | 1 | ~$15 | Search "EEMB 103454 2000mAh" on Amazon. Must have JST connector. |
-| M2x8 Countersunk Screws | 4 | ~$5 | Available at hardware stores. Used to secure the case. |
-| MicroSD Card | 1 | ~$10 | For storing music and photos. |
+| Component | Quantity | Price | Link |
+|-----------|----------|-------|------|
+| Waveshare ESP32-S3 3.5" Touch LCD | 1 | ~$45 | [Aamazon](https://amzn.eu/d/dhugQwD) |
+| EEMB 3.7V 2000mAh 103454 LiPo Battery | 1 | ~$13 | [Amazon](https://amzn.eu/d/cf0S0PU) |
+| M2x8 Countersunk Screws | 4 | ~$8 | [Amazon](https://amzn.eu/d/9zHVemm) |
+| MicroSD Card | 1 | ~$6 | Various |[Amazon](https://amzn.eu/d/2BCD5lO)|
 
 ## Estimated Total Cost
 
