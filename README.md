@@ -20,8 +20,7 @@ When picking out the parts for this project, I wanted to make sure that anyone w
 
 ### Initial Sketch
 
-[Portable-aesthetic-phone/Images
-/Sketch.jpg](https://github.com/Laurentsandler/Portable-aesthetic-phone/blob/main/Images/Sketch.jpg)
+![Sketch Conversion Success](https://github.com/user-attachments/assets/17848200-b929-45de-a0bf-7a4df3386a56)
 
 
 ### Case Design
@@ -30,6 +29,14 @@ The case was designed to have enough space for a battery and a little button to 
 
 The design started from a smaller case for the same dev board, but was extended to add space for a battery, peripheral holes for the microphone and speaker, and various tweaks. It was printed on an Ender 3 S1 to ensure it's printable without supports.
 
+Case model:
+<img width="602" height="677" alt="image" src="https://github.com/user-attachments/assets/a7f4d8fe-a24f-4b9f-81ae-da76ba0fb1ad" />
+
+
+Printed:
+![Case Image 3](https://github.com/user-attachments/assets/ecb02620-3ebb-4724-8dd0-b04528b0637f)
+![Case Image 1](https://github.com/user-attachments/assets/bff3671f-b09d-4eb6-9f76-f8d8e0fcbf68)
+![Case Image 2](https://github.com/user-attachments/assets/745cea09-ad96-49bc-8a90-47213b6630c3)
 
 
 **Assembly Requirements:**
