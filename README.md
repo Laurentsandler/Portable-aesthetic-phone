@@ -20,8 +20,8 @@ When picking out the parts for this project, I wanted to make sure that anyone w
 
 ### Initial Sketch
 
-Portable-aesthetic-phone/Images
-/Sketch.jpg
+[Portable-aesthetic-phone/Images
+/Sketch.jpg](https://github.com/Laurentsandler/Portable-aesthetic-phone/blob/main/Images/Sketch.jpg)
 
 
 ### Case Design
