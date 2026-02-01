@@ -20,13 +20,15 @@ When picking out the parts for this project, I wanted to make sure that anyone w
 
 ### Initial Sketch
 
-*Initial design sketch placeholder*
+Images/Sketch.jpg
 
 ### Case Design
 
 The case was designed to have enough space for a battery and a little button to press on the buttons on the dev board. It's designed to be printed in a dark blue color that suits the black of the display.
 
 The design started from a smaller case for the same dev board, but was extended to add space for a battery, peripheral holes for the microphone and speaker, and various tweaks. It was printed on an Ender 3 S1 to ensure it's printable without supports.
+
+
 
 **Assembly Requirements:**
 - 4x M2x8 Countersunk Screws to secure the case
