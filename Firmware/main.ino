@@ -5,6 +5,8 @@
  * FIXED: Forward declarations and TaskHandle scoping
  */
 
+
+
 #include <Arduino_GFX_Library.h>
 #include <lvgl.h>
 #include "TCA9554.h"
@@ -40,6 +42,9 @@
 // --- STATIC MEMORY LIMITS ---
 #define MAX_LIST_ITEMS 64
 #define MAX_NAME_LEN   64
+
+
+
 
 // --- PINS ---
 #define GFX_BL 6
@@ -229,6 +234,18 @@ uint32_t video_frame_count = 0;
 uint32_t video_start_ms = 0;
 char video_path[64] = {0};
 TaskHandle_t videoTaskHandle = NULL;
+
+// WiFi Configuration
+const char* WIFI_SSID = "YOUR_WIFI_SSID";
+const char* WIFI_PASS = "YOUR_WIFI_PASSWORD";
+
+// Time Configuration
+#define NTP_SERVER "pool.ntp.org"
+#define GMT_OFFSET_SEC 3600
+#define DAYLIGHT_OFFSET_SEC 3600
+#define SCREEN_TIMEOUT_MS 10000
+
+
 
 // --- FORWARD DECLARATIONS (CRITICAL FOR COMPILATION) ---
 void create_status_bar(lv_obj_t *scr, lv_obj_t **time_label, lv_obj_t **bat_label);
