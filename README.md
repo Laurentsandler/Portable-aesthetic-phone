@@ -48,6 +48,11 @@ The CAD folder contains:
 - `Case.stl` - Main case body
 - `Button.stl` - Button component
 
+### 3D Render
+![Waveshare 3 5 ESP32 S3 Case Model](https://github.com/user-attachments/assets/e3cfc0af-ca2e-41d5-a944-6bffcd00fcdf)
+
+
+
 ## Features
 
 - **Touch Display:** 3.5-inch capacitive touch display with 320x480 resolution
