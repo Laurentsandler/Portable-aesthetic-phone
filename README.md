@@ -50,6 +50,7 @@ The CAD folder contains:
 
 ### 3D Render
 ![Waveshare 3 5 ESP32 S3 Case Model](https://github.com/user-attachments/assets/e3cfc0af-ca2e-41d5-a944-6bffcd00fcdf)
+<img width="2070" height="1486" alt="image" src="https://github.com/user-attachments/assets/0e0e52da-b121-4a30-920a-d455a6203d54" />
 
 
 
