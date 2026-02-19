@@ -75,6 +75,56 @@ The CAD folder contains:
 | Battery | 3.7V 2000mAh LiPo (103454) | With JST connector |
 | Storage | SD Card | For music and photos |
 
+### Wiring Diagram
+
+The Waveshare ESP32-S3 module is an all-in-one board with integrated display, touch controller, and audio codec. Below is the wiring diagram showing how the battery and speaker connect to the module:
+
+```
+┌─────────────────────────────────────────────────────┐
+│      Waveshare ESP32-S3 3.5" Touch LCD Module       │
+│  ┌──────────────────────────────────────────────┐   │
+│  │  ESP32-S3 MCU + Display + Touch + Sensors   │   │
+│  └──────────────────────────────────────────────┘   │
+│                                                      │
+│  Battery Connector (JST 2-pin)                       │
+│  ┌────┬────┐                                         │
+│  │ +  │ -  │ ◄──────────────┐                        │
+│  └────┴────┘                │                        │
+│                              │                        │
+│  Speaker Connector (JST 4-pin)                       │
+│  ┌────┬────┬────┬────┐      │                        │
+│  │SPK+│SPK-│GND │VCC │ ◄────┼────────────┐           │
+│  └────┴────┴────┴────┘      │            │           │
+│                              │            │           │
+│  Power Management: AXP2101   │            │           │
+│  Audio Codec: ES8311         │            │           │
+└──────────────────────────────┼────────────┼───────────┘
+                               │            │
+                    ┌──────────▼──────────┐ │
+                    │  3.7V LiPo Battery  │ │
+                    │    2000mAh          │ │
+                    │  (103454 size)      │ │
+                    │   with JST-2 plug   │ │
+                    └─────────────────────┘ │
+                                            │
+                              ┌─────────────▼──────────┐
+                              │  Built-in Speaker      │
+                              │  (Pre-soldered to      │
+                              │   module)              │
+                              └────────────────────────┘
+```
+
+**Wiring Steps:**
+1. **Battery Connection**: Connect the 3.7V LiPo battery to the JST 2-pin battery connector on the module (polarity is keyed)
+2. **Speaker Connection**: The speaker comes pre-soldered to the module via a JST 4-pin connector
+3. **No additional wiring required** - the module handles all connections internally via the AXP2101 power management IC and ES8311 audio codec
+
+**Important Notes:**
+- The battery must have a JST 2-pin connector with correct polarity
+- Maximum battery dimensions: 103454 (10mm × 34mm × 54mm)
+- The AXP2101 PMU handles charging and power distribution automatically
+- No external wiring is required as everything is integrated on the Waveshare module
+
 ### Pin Configuration
 
 | Function | Pin |
@@ -186,16 +236,28 @@ Access system controls:
 | M2x8 Countersunk Screws | 4 | ~$8 | [Amazon](https://amzn.eu/d/9zHVemm) |
 | MicroSD Card | 1 | ~$6  |[Amazon](https://amzn.eu/d/2BCD5lO)|
 
-## Case
+## CAD Files
 
-The case STL files are located in the `CAD` folder:
-- Print the main case body (`Case.stl`)
-- Print the button component (`Button.stl`)
+The `CAD` folder contains the following files:
 
-**Print Settings:**
-- Material: PLA (dark blue recommended)
-- Supports: Not required
-- Infill: 20% or higher
+### 3D Models
+- `Case.stl` - Main case body (ready for 3D printing)
+- `Button.stl` - Button component (ready for 3D printing)
+- `Case.step` - STEP file of case assembly
+- `Button.step` - STEP file of button component
+
+### Print Settings
+- **Material:** PLA (dark blue recommended)
+- **Supports:** Not required
+- **Infill:** 20% or higher
+
+### Assembly
+1. Print the main case body (`Case.stl`)
+2. Print the button component (`Button.stl`)
+3. Insert the Waveshare module and battery
+4. Secure with 4x M2x8 countersunk screws
+
+**Note:** The STEP files contain the complete assembly model including all electronics components as required for the Blueprint submission.
 
 ## License
 
