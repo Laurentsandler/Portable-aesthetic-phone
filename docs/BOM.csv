@@ -1,7 +1,7 @@
 Category,Component,Quantity,Price,Link,Notes
-Electronics,Waveshare ESP32-S3 3.5\" Touch LCD,1,~$39,https://amzn.eu/d/06HJpbi9,
-Electronics,EEMB 3.7V 2000mAh 103454 LiPo Battery,1,~$13,https://amzn.eu/d/cf0S0PU,
-Hardware,M2x8 Countersunk Screws,4,~$8,https://amzn.eu/d/9zHVemm,
-Electronics,MicroSD Card,1,~$6,https://amzn.eu/d/2BCD5lO,
-3D Printed Part,Main Case Body,1,N/A,,File: Case.stl; Dark blue PLA recommended
-3D Printed Part,Button,1,N/A,,File: Button.stl; Same material as case
+Electronics,"Waveshare ESP32-S3 3.5"" Touch LCD",1,"~$39",https://amzn.eu/d/06HJpbi9,
+Electronics,"EEMB 3.7V 2000mAh 103454 LiPo Battery",1,"~$13",https://amzn.eu/d/cf0S0PU,
+Hardware,"M2x8 Countersunk Screws",4,"~$8",https://amzn.eu/d/9zHVemm,
+Electronics,"MicroSD Card",1,"~$6",https://amzn.eu/d/2BCD5lO,
+3D Printed Part,"Main Case Body",1,N/A,,"File: Case.stl; Dark blue PLA recommended"
+3D Printed Part,"Button",1,N/A,,"File: Button.stl; Same material as case"
