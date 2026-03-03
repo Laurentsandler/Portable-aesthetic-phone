@@ -1,38 +1,7 @@
-# Bill of Materials (BOM)
-
-This document lists all components required to build the Portable Aesthetic Phone.
-
-## Components
-
-| Component | Quantity | Price | Link |
-|-----------|----------|-------|------|
-| Waveshare ESP32-S3 3.5" Touch LCD | 1 | ~$39 | [Amazon](https://amzn.eu/d/06HJpbi9) |
-| EEMB 3.7V 2000mAh 103454 LiPo Battery | 1 | ~$13 | [Amazon](https://amzn.eu/d/cf0S0PU) |
-| M2x8 Countersunk Screws | 4 | ~$8 | [Amazon](https://amzn.eu/d/9zHVemm) |
-| MicroSD Card | 1 | ~$6 | [Amazon](https://amzn.eu/d/2BCD5lO)|
-
-## Estimated Total Cost
-
-**~$70** (excluding 3D printing materials)
-
-## 3D Printed Parts
-
-The following parts need to be 3D printed (STL files located in the `CAD` folder):
-
-| Part | File | Notes |
-|------|------|-------|
-| Main Case Body | `Case.stl` | Dark blue PLA recommended |
-| Button | `Button.stl` | Same material as case |
-
-### Recommended Print Settings
-
-- **Material:** PLA (dark blue recommended)
-- **Supports:** Not required
-- **Infill:** 20% or higher
-
-## Where to Buy
-
-- **Waveshare ESP32-S3 Board:** [Waveshare Official](https://www.waveshare.com/esp32-s3-touch-lcd-3.5.htm) or Amazon
-- **Battery:** Amazon (search "EEMB 103454 2000mAh")
-- **Screws:** Local hardware store or Amazon
-- **MicroSD Card:** Any electronics retailer
+Category,Component,Quantity,Price,Link,Notes
+Electronics,Waveshare ESP32-S3 3.5\" Touch LCD,1,~$39,https://amzn.eu/d/06HJpbi9,
+Electronics,EEMB 3.7V 2000mAh 103454 LiPo Battery,1,~$13,https://amzn.eu/d/cf0S0PU,
+Hardware,M2x8 Countersunk Screws,4,~$8,https://amzn.eu/d/9zHVemm,
+Electronics,MicroSD Card,1,~$6,https://amzn.eu/d/2BCD5lO,
+3D Printed Part,Main Case Body,1,N/A,,File: Case.stl; Dark blue PLA recommended
+3D Printed Part,Button,1,N/A,,File: Button.stl; Same material as case
